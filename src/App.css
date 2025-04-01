@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+  background-color: rgb(104, 32, 32);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+.container-fluid{
+  background-color: rgb(133, 18, 18);
+  display: flex;
+  justify-content: left;
+  height: 50px;
+  margin-top: 10px;
+  
+  
+}
+.navbar-titulo{
+  color: white;
+  font-size: 40px;
+  font-family: "Bebas Neue", sans-serif;
+  padding-left: 5px;
+  font-weight: bold;
+}
+.navbar-nav{
+  display: flex;
+  justify-content: center;
+}
+.navbar-itens{
+  font-size: 30px;
+  font-family: "Bebas Neue", sans-serif;
+  padding: 5px;
+  margin-left: 20px 
+}
+nav a{
+  color: white;
+}
+
+nav a:hover{
+  color: rgba(255, 255, 255, 0.863);
+}
+
+.imagem-cinema{
+  width: 700px;
+  height: 450px;
+  margin: 10px;
+}
+
+p{
+  font-family: "Bebas Neue", sans-serif;
+  color: gold;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.container-botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; 
+}
+
+button {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
