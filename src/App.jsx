@@ -1,9 +1,11 @@
+import { Link, Routes, Route } from 'react-router-dom'
 import './App.css'
 import * as React from "react"
+import Programacao from './pages/Programacao'
 
 function App(){
   return (
-    <body>
+    <div>
       <nav className="navbar">
         <div className="container-fluid">
           <div className="navbar-header">
@@ -19,10 +21,13 @@ function App(){
 
       <img src='src\componentes\cinema.jpg' className='imagem-cinema'></img>
       <p>A magia do cinema clássico, agora pertinho de você!</p>
-      <div className="container-botao">
-          <button>Ver Programação</button>
-      </div>
-    </body>
+      <Link to="/programacao">
+        <button>Ver Programação</button>
+      </Link>
+      <Routes>
+        <Route path="/programacao" element={<Programacao />}/>
+      </Routes>
+    </div>
   )
 }
 
